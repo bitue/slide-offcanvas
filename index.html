@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i am bitue</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- nav bar  -->
+        <nav class=" py-2 px-10 bg-gray-100 flex justify-between items-center">
+            <!-- logo part  -->
+            <div class="logo flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                </svg>
+                <h1 class="text-3xl font-bold text-yellow-600">i_slider</h1>
+            </div>
+            <!-- menu links  -->
+            <div class="links flex space-x-5 hidden md:block">
+                <a href="">My Dreams</a>
+                <a href="">Motivation</a>
+                <a href="">Seminars</a>
+                <a href="">Contact</a>
+            </div>
+            <div class=" md:hidden">
+                <button id="menu" class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div id="slide"
+            class="slider w-64 bg-gray-300 h-screen fixed top-0 bottom-0  overflow-y-auto overflow-x-hidden transform -translate-x-full transition duration-200  ">
+            <div class="flex flex-col space-y-3">
+                <a class="block py-2 pl-3 hover:bg-gray-500 " href="">My Dreams</a>
+                <a class="block py-2 pl-3 hover:bg-gray-500 " href="">Motivation</a>
+                <a class="block py-2 pl-3 hover:bg-gray-500 " href="">Seminars</a>
+                <a class="block py-2 pl-3 hover:bg-gray-500 " href="">Contact</a>
+
+
+            </div>
+
+        </div>
+
+    </header>
+    <section>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
